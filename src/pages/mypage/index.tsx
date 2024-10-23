@@ -6,7 +6,7 @@ function MyPage() {
   return (
     <div className={styles.text}>
       <h1>マイページ</h1>
-      <h6>テキスト<br />
+      <h6>テキスト２<br />
         2段目</h6>
       
       <table className={styles.ranktable}><thead>
