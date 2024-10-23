@@ -1,0 +1,8 @@
+.text {
+    text-align: center;
+}
+.ranktable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
