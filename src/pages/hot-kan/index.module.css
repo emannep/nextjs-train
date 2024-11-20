@@ -49,7 +49,7 @@
 .about_ins:hover .about_ins_menu {
   display: block;
 }
-.button{
+.button {
   background-color: #e74208;
   color: #ffffff;
   padding: 8px 12px;
@@ -57,7 +57,7 @@
   text-decoration-line: none;
   place-content: center;
 }
-.button:hover{
+.button:hover {
   background-color: #e74208;
 }
 .slide {
