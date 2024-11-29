@@ -12,8 +12,10 @@
   font-size: 14px;
   place-content: center;
   position: relative;
+  padding: 24px 0px;
 }
 .about_menu {
+  cursor: pointer;
   color: #000000;
   font-size: 14px;
   width: 170px;
@@ -22,7 +24,7 @@
   border-radius: 10px;
   padding: 10px 30px 15px 20px;
   position: absolute;
-  bottom: -150px;
+  transform: translate(0, 10px);
   display: none;
 }
 .about:hover .about_menu {
@@ -33,8 +35,10 @@
   place-content: center;
   font-size: 14px;
   position: relative;
+  padding: 24px 0px;
 }
 .about_ins_menu {
+  cursor: pointer;
   color: #000000;
   font-size: 14px;
   width: 170px;
@@ -43,10 +47,27 @@
   border-radius: 10px;
   padding: 10px 30px 15px 20px;
   position: absolute;
-  bottom: -179px;
+  transform: translate(0, 10px);
   display: none;
+  /* background-image:linear-gradient(176deg, #ffffff 86%, #a1a1aa); */
 }
 .about_ins:hover .about_ins_menu {
+  display: block;
+}
+.about_ins_other_menu {
+  cursor: pointer;
+  color: #000000;
+  font-size: 14px;
+  width: 250px;
+  line-height: 2;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 30px 15px 20px;
+  position: absolute;
+  transform: translate(0, 5px);
+  display: none;
+}
+.about_ins_menu a:hover .about_ins_other_menu {
   display: block;
 }
 .button {
